@@ -13,8 +13,8 @@ def link
   puts warning
 end
 
-def any_phase(phrase)
-  puts "#{phase}!"
+def any_phrase(phrase)
+  puts phrase
 end
 
-any_phase("Do A Barrel Roll")
+any_phrase("Do A Barrel Roll!")
